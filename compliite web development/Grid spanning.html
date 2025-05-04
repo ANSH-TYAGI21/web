@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid spanning</title>
+    <style>
+        .container{
+            display: grid;
+            grid-template-columns: repeat(4,2fr);
+            grid-template-rows: repeat(2,2fr);
+            grid-gap: 2rem;
+            /* grid-column-gap: 5rem;
+            grid-row-gap: 1rem; */
+        }
+        .box{
+            border: 2px solid yellow;
+            background-color: blueviolet;
+            padding: 25px;
+        }
+        .box:first-child{
+            /* grid-column-start: 1;
+            grid-column-end: 3;
+            grid-row-start: 1;
+            grid-row-end: 5; */
+            grid-column: 1/span 3;
+            grid-row: 1/span 3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">Itme1</div>
+        <div class="box">Itme2</div>
+        <div class="box">Itme3</div>
+        <div class="box">Itme4</div>
+        <div class="box">Itme5</div>
+        <div class="box">Itme6</div>
+        <div class="box">Itme7</div>
+        
+        <div class="box">Itme8</div>
+        <div class="box">Itme8</div>
+        <div class="box">Itme8</div>
+        <div class="box">Itme8</div>
+        <div class="box">Itme8</div>
+        <div class="box">Itme8</div>
+        <div class="box">Itme8</div>
+        <div class="box">Itme8</div>
+        <div class="box">Itme8</div>
+        
+        <div class="box">Itme8</div>
+        <div class="box">Itme8</div>
+        <div class="box">Itme8</div>
+        <div class="box">Itme8</div>
+        <div class="box">Itme8</div>
+        <div class="box">Itme8</div>
+        <div class="box">Itme8</div>
+        <div class="box">Itme8</div>
+        <div class="box">Itme8</div>
+        <div class="box">Itme8</div>
+        <div class="box">Itme8</div>
+        <div class="box">Itme8</div>
+        <div class="box">Itme8</div>
+        <div class="box">Itme8</div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Key fram and Animations</title>
+</head>
+    <style>
+        .container{
+            display: flex;
+            background-color: azure;
+        }
+        .box{
+            background-color: aqua;
+            width: 250px;
+            height: 250px;
+            position: relative;
+            /* animation-name: ansh;
+            animation-duration: 5s;
+            animation-iteration-count: 3; */
+            /* animation-timing-function: ease-in-out; */
+            /* animation-direction: reverse; */
+            
+            /* short hand */
+             /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+             animation: Ajay 5s ease-in-out 1s 2 ;
+        }
+        @keyframes Ajay{
+            0%{
+                top:0px;
+                left:0px;
+            }
+            25%{
+                top: 250px;
+                left: 0px;
+
+            }
+            75%{
+                top: 250px;
+                left: 250px;
+            }
+            100%{
+                top: 0px;
+                left: 250px;
+            }
+        }
+        @keyframes ansh8 {
+            from {
+                width: 200px;
+            }
+            to {
+                width: 400px;
+            }
+        }
+    </style>
+
+<body>
+    <div class="container">
+        <div class="box">
+            <H2>This is a box</H2>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> My first website </title>
+    <style>
+        /* .navbar{
+            background-color: cadetblue;
+            border-radius: 20px;
+        } 
+         .navbar ul{
+            overflow: auto;
+        } 
+        .navbar li{
+            float: left;
+            
+            list-style: none;
+            padding: 3px 5px;
+            margin: 14px 8px; 
+
+        }
+         .navbar li:hover{
+            color: brown;
+            background-color: white;
+        }
+        .navbar input{
+            border: 2px solid red;
+            border-radius: 20px;
+            padding: 5px 6px;
+        }
+        .search{
+            float: right;
+            color: chocolate;
+            padding: 12px 7px; 
+            
+        } */
+        /* body{
+            background:url('box/Nature.Jpg')
+         } */
+        body{
+            background: url("Nature.jpg");
+        }    
+        h2 {
+            text-align: center;
+            background: linear-gradient(to left,blue,white);
+            color: transparent;
+            -webkit-background-clip: text;
+        }
+        h3 {
+            color:black;
+            text-align: center;
+        }
+        
+        p {
+            color: cornsilk;
+            text-align: center;
+        }
+
+        .intordition {
+            color: aqua;
+            background-color: burlywood;
+            border-radius: 40px;
+        }
+
+        .intordition ul {
+            overflow: auto;
+            
+        }
+
+        .intordition li {
+
+            float: left;
+            list-style: none;
+            margin: 20px;
+
+        }
+
+        .intordition li:hover {
+            color: black;
+            background-color: white; 
+        }
+
+        .search {
+            border-radius: 20px;
+            float: right;
+            margin: 20px;
+        }
+
+        a {
+            text-decoration: none;
+            color: aqua;
+        }
+
+        li :hover {
+            text-decoration: none;
+            color: brown;
+            background-color: grey
+        }
+
+        .search {
+            color: aqua;
+            background-color: black;
+        }
+        
+        table {
+            width: 200px;
+            border-spacing: 20px;
+            padding: 50px;
+            margin: auto;
+            /* background-color: darkolivegreen; */
+        }
+        table tr{
+            text-align: center;
+            background-color: rgb(13, 13, 13);
+            color: aqua;
+        }
+        h3{
+            /* font-size: 100px;
+            font-weight: 1000; */
+            background: linear-gradient(to right,red,green);
+            color: transparent;
+            -webkit-background-clip: text;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Welcome</h2>
+    <div class="first_headind">
+        <p><b> This is my first website with help of css and html</b></p>
+
+    </div>
+    <header>
+        <nav class="intordition">
+            <ul>
+                <li> <a href="practice.html" target="_blank">Home</a></li>
+                <li> <a href="Contact_Us.html">Contact Us</a></li>
+                <li> <a href="Help.html" target="_blank">Help</a></li>
+                <!-- <div class="search"> <a href=""></a></div> -->
+                <input type="text" name="sec" class="search" placeholder="Search about this web" >
+
+            </ul>
+        </nav>
+    </header> 
+    <br>
+    <br>
+    <h3>Studant Details</h3><br>   
+    <table border="n" >
+
+        <thead>
+            <tr>
+                <th>Roll.No</th>
+                <th>Name</th>
+                <th>Father Name</th>
+                <th>Course</th>
+                <th>Branch</th>
+                <th>Address</th>
+                <th>College Name</th>
+                <th>Photo</th>
+                <th> 10<sup>th</sup> Marksheet</th>
+                <th> 12<sup>th</sup> Maerksheet</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>01</td>
+                <td>Ansh Bhardwaj</td>
+                <td>Ajay Tyagi</td>
+                <td>Mca 2<sup>y</sup></td>
+                <td>Mca</td>
+                <td>village+Post Kulsath Deoband Saharanpur(up)</td>
+                <td>SD Management muzaffarnagar</td>
+                <td><a href="Ansh.jpg" class="btn" target="_blank">Click Here</a></td>
+                <td><a href="10th marksheet.jpg" class="btn" target="_blank">Click Here </a></td>
+                <td><a href="12th marksheet.jpg" class="btn" target= "_blank">Click Here</a></td>
+
+            </tr>
+            <tr>
+                <td>02</td>
+                <td>Vibha Tyagi</td>
+                <td>Ajay Tyagi</td>
+                <td>Mba 2<sup>y</sup></td>
+                <td>Mba</td>
+                <td>village+Post Kulsath Deoband Saharanpur(up)</td>
+                <td>SD Management muzaffarnagar</td>
+                <td><a href="Ansh.jpg" class="btn" target="_blank">Click Here</a></td>
+                <td><a href="10th marksheet.jpg" class="btn" target="_blank">Click Here </a></td>
+                <td><a href="12th marksheet.jpg" class="btn" target= "_blank">Click Here</a></td>
+
+            </tr>
+            <tr>
+                <td>03</td>
+                <td>Ajay Kumar</td>
+                <td>pta ni</td>
+                <td>Mca 2<sup>y</sup></td>
+                <td>Mca</td>
+                <td>village+Post Kulsath Deoband Saharanpur(up)</td>
+                <td>SD Management muzaffarnagar</td>
+                <td><a href="Ansh.jpg" class="btn" target="_blank">Click Here</a></td>
+                <td><a href="10th marksheet.jpg" class="btn" target="_blank">Click Here </a></td>
+                <td><a href="12th marksheet.jpg" class="btn" target= "_blank">Click Here</a></td>
+
+            </tr>
+            <tr>
+                <td>04</td>
+                <td>Ginni</td>
+                <td>Dhiman</td>
+                <td>Mca 2<sup>y</sup></td>
+                <td>Mca</td>
+                <td>village+Post Kulsath Deoband Saharanpur(up)</td>
+                <td>SD Management muzaffarnagar</td>
+                <td><a href="Ansh.jpg" class="btn" target="_blank">Click Here</a></td>
+                <td><a href="10th marksheet.jpg" class="btn" target="_blank">Click Here </a></td>
+                <td><a href="12th marksheet.jpg" class="btn" target= "_blank">Click Here</a></td>
+
+            </tr>
+            <tr>
+                <td>05</td>
+                <td>Shruti Tyagi</td>
+                <td>Tyagi</td>
+                <td>Mca 2<sup>y</sup></td>
+                <td>Mca</td>
+                <td>village+Post Phalouda purquazi muzaffarnagar(up)</td>
+                <td>SD Management muzaffarnagar</td>
+                <td><a href="Ansh.jpg" class="btn" target="_blank">Click Here</a></td>
+                <td><a href="10th marksheet.jpg" class="btn" target="_blank">Click Here </a></td>
+                <td><a href="12th marksheet.jpg" class="btn" target= "_blank">Click Here</a></td>
+
+            </tr>
+            <tr>
+                <td>06</td>
+                <td> kanika</td>
+                <td>Dhiman</td>
+                <td>Mca 2<sup>y</sup></td>
+                <td>Mca</td>
+                <td>City muzaffarnagar (up)</td>
+                <td>SD Management muzaffarnagar</td>
+                <td><a href="Ansh.jpg" class="btn" target="_blank">Click Here</a></td>
+                <td><a href="10th marksheet.jpg" class="btn" target="_blank">Click Here </a></td>
+                <td><a href="12th marksheet.jpg" class="btn" target= "_blank">Click Here</a></td>
+
+            </tr>
+            <tr>
+                <td>07</td>
+                <td> Taniya Tyagi</td>
+                <td>Chandraveer Tyagi</td>
+                <td>Mca 2<sup>y</sup></td>
+                <td>Mca</td>
+                <td>Roorkee Haridwar (uk)</td>
+                <td>SD Management muzaffarnagar</td>
+                <td><a href="Ansh.jpg" class="btn" target="_blank">Click Here</a></td>
+                <td><a href="10th marksheet.jpg" class="btn" target="_blank">Click Here </a></td>
+                <td><a href="12th marksheet.jpg" class="btn" target= "_blank">Click Here</a></td>
+
+            </tr>
+            <tr>
+                <td>08</td>
+                <td>kanak Tyagi</td>
+                <td> Tyagi</td>
+                <td>Mca 2<sup>y</sup></td>
+                <td>Mca</td>
+                <td>city Barla muzaffarnagar(up)</td>
+                <td>SD Management muzaffarnagar</td>
+                <td><a href="Ansh.jpg" class="btn" target="_blank">Click Here</a></td>
+                <td><a href="10th marksheet.jpg" class="btn" target="_blank">Click Here </a></td>
+                <td><a href="12th marksheet.jpg" class="btn" target= "_blank">Click Here</a></td>
+
+            </tr>
+            <tr>
+                <td>09</td>
+                <td>Mimi Tyagi</td>
+                <td> Tyagi</td>
+                <td>Mca 2<sup>y</sup></td>
+                <td>Mca</td>
+                <td>City muzaffarnagar(up)</td>
+                <td>SD Management muzaffarnagar</td>
+                <td><a href="Ansh.jpg" class="btn" target="_blank">Click Here</a></td>
+                <td><a href="10th marksheet.jpg" class="btn" target="_blank">Click Here </a></td>
+                <td><a href="12th marksheet.jpg" class="btn" target= "_blank">Click Here</a></td>
+
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>Yash Tyagi</td>
+                <td>Vipin Tyagi</td>
+                <td>Bca 3<sup>y</sup></td>
+                <td>Bca</td>
+                <td>village+Post Kulsath Deoband Saharanpur(up)</td>
+                <td>Shir Ram Group of College muzaffarnagar</td>
+                <td><a href="Ansh.jpg" class="btn" target="_blank">Click Here</a></td>
+                <td><a href="10th marksheet.jpg" class="btn" target="_blank">Click Here </a></td>
+                <td><a href="12th marksheet.jpg" class="btn" target= "_blank">Click Here</a></td>
+
+            </tr>
+            
+            
+        </tbody>
+
+    </table>
+    
+
+</body>
+
+</html>

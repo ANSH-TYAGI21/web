@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Row</title>
+    <style>
+        .grid{
+            display: grid;
+            grid-template-rows: 1fr 1fr 4fr;
+            grid-auto-rows: 2fr;
+            /* grid-template-columns: 1fr 2fr 3fr; */
+            grid-template-columns:repeat(4, 2fr);
+            grid-gap: 1rem;
+        }
+        .Box{
+            background-color: brown;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <div class="grid">
+        <div class="Box">This is a box1</div>
+        <div class="Box">This is a box2</div>
+        <div class="Box">This is a box3</div>
+        <div class="Box">This is a box4</div>
+        <div class="Box">This is a box5</div>
+        <div class="Box">This is a box6</div>
+        <div class="Box">This is a box7</div>
+        <div class="Box">This is a box8</div>
+        <div class="Box">This is a box9</div>
+        <div class="Box">This is a box10</div>
+    </div>
+</body>
+</html>
